@@ -24,5 +24,5 @@ scrape_configs:
       - localhost
     labels:
       job: app
-      __path__: /opt/app_max/app/logs/*.log
+      __path__: /var/log/app/*.log
       host: ${HOSTNAME}
